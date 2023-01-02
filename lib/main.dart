@@ -19,6 +19,8 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   int maxFailedLoadAttempts = 3;
+
+  
   BannerAd myBanner = BannerAd(
     adUnitId: 'ca-app-pub-3940256099942544/6300978111',
     size: AdSize.banner,
